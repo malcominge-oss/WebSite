@@ -1,5 +1,36 @@
+body{
+    margin: 10%;
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(18, 38, 36, 1) 100%);                                 
+}
 p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
+}
+.cnt{
+    padding: 10px;
+    text-align: center;
+    border: solid 1px;
+    color: #000000;
+    background-color: #f0f8ff;
+    border-radius: 20px;
+}
+.form{
+    height:fit-content;
+    width:fit-content;
+}
+.imge{
+    width: 200px;
+    height: 100px;
+}
+.derecha{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.izq{
+    position: fixed;
+    top: 275px;
+    left: 900px;
 }
